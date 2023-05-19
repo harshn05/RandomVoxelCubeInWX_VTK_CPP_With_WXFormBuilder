@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "wxVTKRenderWindowInteractor.h"
+#include "wxVTKRenderWindowInteractor.hpp"
 #include <vtkCommand.h>
 #include <vtkDebugLeaks.h>
 #define WX_USE_X_CAPTURE 1

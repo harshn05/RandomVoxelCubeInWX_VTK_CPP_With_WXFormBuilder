@@ -26,3 +26,8 @@ target_link_libraries(
     ${PROJECT_NAME}
     ${wxWidgets_LIBRARIES} ${VTK_LIBRARIES}
     )
+
+vtk_module_autoinit(
+    TARGETS ${PROJECT_NAME}
+    MODULES ${VTK_LIBRARIES}
+    )

@@ -1,4 +1,4 @@
-#include "FunctionalUI.h"
+#include "FunctionalUI.hpp"
 #include <wx/msgdlg.h>
 
 #define MY_VTK_WINDOW 102

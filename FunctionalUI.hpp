@@ -1,7 +1,6 @@
 #pragma once
-#include "ApplicationDriver.h"
 #include "DesignerUI.h"
-#include "wxVTKRenderWindowInteractor.h"
+#include "wxVTKRenderWindowInteractor.hpp"
 #include <vtkCamera.h>
 #include <vtkRenderer.h>
 #include <vtkRenderWindow.h>
